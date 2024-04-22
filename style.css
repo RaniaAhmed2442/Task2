@@ -1,0 +1,132 @@
+.Feat{
+    font-style: italic;
+    text-align: center;
+}
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+
+nav {
+    background-color: white;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+@media (max-width: 600px) {
+    li {
+        float: none;
+        display: inline-block;
+    }
+}
+  /* hr {
+      border: none;
+      height: 1px;
+      background-color: black;
+      margin: 20px 0;
+      
+  } */
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+  }
+
+  .grid-item {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      position:relative;
+      
+  }
+
+  .top-box {
+      position: absolute;
+      top: 25px;
+      /* Adjust the distance from the top of the card */
+      left: 25%;
+      transform: translateX(-50%);
+      width: 50px;
+      /* Adjust the width of the box */
+      height: 20px;
+      /* Adjust the height of the box */
+      background-color: #ff0000;
+      /* Adjust the background color of the box */
+  }
+
+
+  .grid-item img {
+      width: 300px;
+      height: 300px;
+      /*object-fit: cover;*/
+      /*border-radius: 50%;*/
+      margin-bottom: 10px;
+  }
+
+  .grid-item h3 {
+      margin: 10px 0;
+  }
+
+  .grid-item p {
+      color: #777;
+  }
+  #s-red{
+    color: red;
+  }
+.small-square-image {
+    width: 10px;
+    
+    height: 10px;
+    
+    margin: 5px;
+    
+    border-radius: 80%;
+   
+}
+
+.inline-content {
+    text-align: center;
+    display: flex;
+    /* Use flexbox to align items */
+    align-items: center;
+    /* Align items vertically */
+    margin-bottom: 10px;
+    /* Adjust the margin as needed */
+}
+  .top-box {
+      position: absolute;
+      top: 25px;
+      /* Adjust the distance from the top of the card */
+      left: 25%;
+      transform: translateX(-50%);
+      width: 80px;
+      /* Adjust the width of the box */
+      height: 20px;
+      /* Adjust the height of the box */
+      background-color: #8b0932;
+      /* Adjust the background color of the box */
+  }
